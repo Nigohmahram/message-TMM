@@ -1,9 +1,12 @@
 .chatList {
+	flex: 1;
+
 	.search {
 		display: flex;
 		align-items: center;
 		gap: 20px;
 		padding: 20px;
+		padding-top: 5px;
 
 		.searchBar {
 			flex: 1;
@@ -34,6 +37,34 @@
 			padding: 10px;
 			border-radius: 10px;
 			cursor: pointer;
+		}
+	}
+	.item {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		padding: 15px;
+		cursor: pointer;
+		border-bottom: 1px solid #dddddd0d;
+
+		img {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+		.texts {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+
+			span {
+				font-weight: 600;
+			}
+			p {
+				font-size: 12px;
+				font-weight: 200;
+			}
 		}
 	}
 }

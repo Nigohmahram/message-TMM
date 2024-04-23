@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Scrollbars } from 'react-custom-scrollbars';
 import './chatList.css';
 
 const ChatList = () => {
@@ -12,6 +13,71 @@ const ChatList = () => {
 				</div>
 				<img src={addMode ? './minus.png' : './plus.png'} alt='plus' className='add' onClick={() => setAddMode(prev => !prev)} />
 			</div>
+			<Scrollbars style={{ width: '100%', height: '85%' }}>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+			</Scrollbars>
 		</div>
 	);
 };
