@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars';
 import './chatList.css';
+import AddUser from './addUser/addUser';
 
 const ChatList = () => {
 	const [addMode, setAddMode] = useState(false);
@@ -78,6 +79,7 @@ const ChatList = () => {
 					</div>
 				</div>
 			</Scrollbars>
+			{addMode && <AddUser />}
 		</div>
 	);
 };
