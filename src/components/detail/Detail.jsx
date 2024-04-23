@@ -11,7 +11,7 @@ const Detail = () => {
 			<div className='info'>
 				<div className='option'>
 					<div className='title'>
-						<span>Chat Settings</span>
+						<span>Account</span>
 						<img src='./arrowUp.png' alt='arrow' />
 					</div>
 				</div>
@@ -23,7 +23,7 @@ const Detail = () => {
 				</div>
 				<div className='option'>
 					<div className='title'>
-						<span>Privacy % help</span>
+						<span>Privacy & help</span>
 						<img src='./arrowUp.png' alt='arrow' />
 					</div>
 				</div>
@@ -38,35 +38,28 @@ const Detail = () => {
 								<img src='https://th.bing.com/th/id/OIP.HoJzdbR1alp1BmuueKlGOAAAAA?w=350&h=450&rs=1&pid=ImgDetMain' alt='' />
 								<span>photo_2024_2.png</span>
 							</div>
-							<img src='./download.png' alt='' />
+							<img src='./download.png' alt='' className='icon' />
 						</div>
 						<div className='photoItem'>
 							<div className='photoDetail'>
 								<img src='https://th.bing.com/th/id/OIP.HoJzdbR1alp1BmuueKlGOAAAAA?w=350&h=450&rs=1&pid=ImgDetMain' alt='' />
 								<span>photo_2024_2.png</span>
 							</div>
-							<img src='./download.png' alt='' />
+							<img src='./download.png' alt='' className='icon' />
 						</div>
 						<div className='photoItem'>
 							<div className='photoDetail'>
 								<img src='https://th.bing.com/th/id/OIP.HoJzdbR1alp1BmuueKlGOAAAAA?w=350&h=450&rs=1&pid=ImgDetMain' alt='' />
 								<span>photo_2024_2.png</span>
 							</div>
-							<img src='./download.png' alt='' />
+							<img src='./download.png' alt='' className='icon' />
 						</div>
 						<div className='photoItem'>
 							<div className='photoDetail'>
 								<img src='https://th.bing.com/th/id/OIP.HoJzdbR1alp1BmuueKlGOAAAAA?w=350&h=450&rs=1&pid=ImgDetMain' alt='' />
 								<span>photo_2024_2.png</span>
 							</div>
-							<img src='./download.png' alt='' />
-						</div>
-						<div className='photoItem'>
-							<div className='photoDetail'>
-								<img src='https://th.bing.com/th/id/OIP.HoJzdbR1alp1BmuueKlGOAAAAA?w=350&h=450&rs=1&pid=ImgDetMain' alt='' />
-								<span>photo_2024_2.png</span>
-							</div>
-							<img src='./download.png' alt='' />
+							<img src='./download.png' alt='' className='icon' />
 						</div>
 					</div>
 				</div>
