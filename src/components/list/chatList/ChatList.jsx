@@ -78,6 +78,90 @@ const ChatList = () => {
 						<p>Hello</p>
 					</div>
 				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
+				<div className='item'>
+					<img src='./avatar.png' alt='avatar' />
+					<div className='texts'>
+						<span>Usmonov Kh</span>
+						<p>Hello</p>
+					</div>
+				</div>
 			</Scrollbars>
 			{addMode && <AddUser />}
 		</div>
